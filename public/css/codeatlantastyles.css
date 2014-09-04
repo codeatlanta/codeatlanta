@@ -49,3 +49,31 @@ footer {
 	margin-top: 120px;
 	margin-bottom: 40px;
 }
+
+/* Mobile Responsive Form */
+.frm {
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+}
+.frm input[type=text],
+.frm input[type=submit],
+.frm input[type=button],
+.frm input[type=email],
+.frm input[type=number],
+.frm input[type=date],
+.frm input[type=time],
+.frm input[type=datetime],
+.frm textarea,
+.frm select,
+.frm label {
+    width: 100%;
+    margin: 0px;
+}
+.frm label {
+    margin-top: 3px;
+    display: block;
+}
+.frm input[type=submit] {
+    margin-top: 5px;
+}

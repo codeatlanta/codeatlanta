@@ -6,8 +6,8 @@
         <meta name="description" content="Codeatlanta.org A place to come learn to code locally with help from local developers, designers, and other IT people.">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400' rel='stylesheet' type='text/css'>
-        {{ HTML::style('css/bootstrap.min.css'); }}
-        {{ HTML::style('css/codeatlantastyles.css'); }}
+        {{ HTML::style('/css/bootstrap.min.css'); }}
+        {{ HTML::style('/css/codeatlantastyles.css'); }}
     </head>
     <body>
         <header>

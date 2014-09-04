@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'forge',
+			'database'  => 'codeatlanta',
 			'username'  => 'forge',
 			'password'  => '',
 			'charset'   => 'utf8',
