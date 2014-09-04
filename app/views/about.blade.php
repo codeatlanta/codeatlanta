@@ -1,6 +1,7 @@
-<?php include('include/header.php'); ?>
+@extends('layout')
 
-	<div id="team">
+@section('content')
+    <div id="team">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -13,7 +14,7 @@
 				<div class="col-lg-2">
 				</div>
 				<div class="col-lg-4">
-					<img src="img/matthewtrask1.jpg" alt="matthew trask" id="mtrask">
+					{{ HTML::image('img/matthewtrask1.jpg', 'matthew trask', array('id' => 'mtrask')) }}
 				</div>
 				<div class="col-lg-6">
 					<h2 class="text-center">Matt Trask</h2><hr />
@@ -23,5 +24,4 @@
 			</div>
 		</div>
 	</div>
-
-<?php include('include/footer.php'); ?>
+@stop
