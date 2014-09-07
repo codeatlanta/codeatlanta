@@ -1,0 +1,3 @@
+About Us
+
+CodeAtlanta.org is a collective of some of Atlanta's premier web developers, designers, marketers, IT professionals and other professionals from all sectors. We aim to help both youth and adults change their lives and get active in the IT career fields. Whether they choose to code, repair machines, set up hosting environments or design graphics, we intend to help them get to that point. We plan on taking people of all ages from knowing abosultely nothing to creating amazing sites, graphics, apps, networks and anything else they can set their mind too. 
