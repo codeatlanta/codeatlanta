@@ -18,3 +18,4 @@ Route::post('/contact', 'ContactController@postContact');
 Route::get('/contact/thank-you', 'ContactController@getContactThankYou');
 Route::get('/sponsors', 'SponsorsController@getSponsors');
 Route::get('/join', 'JoinController@getJoin');
+Route::get('/events', 'EventsController@getEvents');

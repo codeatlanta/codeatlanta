@@ -11,41 +11,42 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			    <div class="container">
-				    <div class="navbar-header">
-					    <h1>{{ HTML::link('/', 'Code Atlanta') }}</h1>
-				    </div>
-				    <div class="collapse navbar-collapse" id="navbar-collapse-main">
-					    <ul class="navbar-right nav navbar-nav">
-                            <li>{{ HTML::link('/about', 'About') }}</li>
-                            <li>{{ HTML::link('/join', 'Join Us') }}</li>
-                            <li>{{ HTML::link('/sponsors', 'Sponsors') }}</li>
-                            <li>{{ HTML::link('/contact', 'Contact') }}</li>
-					    </ul>
-				    </div>
-			    </div>
-		    </nav>
+            <div class="header-wrap">
+                <h1>{{ HTML::link('/', 'Code Atlanta') }}</h1>
+                <nav>
+                    <ul>
+                        <li>{{ HTML::link('/events', 'Events') }}</li>
+                        <li>{{ HTML::link('/about', 'About') }}</li>
+                        <li>{{ HTML::link('/join', 'Join Us') }}</li>
+                        <li>{{ HTML::link('/sponsors', 'Sponsors') }}</li>
+                        <li>{{ HTML::link('/contact', 'Contact') }}</li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        @yield('content')
+        <div class="content">
+            @yield('content')
+        </div>
         <footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<ul id="socialmedia">
-							<li>Facebook</li>
-							<li>Twitter</li>
-							<li>Github</li>
-						</ul>
-					</div>
-					<div class="col-lg-6">
-						<p class="text-center"> &copy; 2014 Codeatlanta.org </p>
-						<p class="text-center"> This will be a completely open source project. If you want to contribute, please check out our github repo.</p>
-					</div>
-					<div class="col-lg-3">
-					</p>
-				</div>
-			</div>
+            <div class="footer-wrap">
+                <div class="footer-about">
+                    <h3>About Code Atlanta</h3>
+                    <p>Code Atlanta is a non-profit organization with the goal of creating a network of professional software developers, graphic designers and other technological professions and helping persons in the Atlanta area get started with these professions to jumpstart their new careers.
+                </div>
+                <div class="footer-social">
+                    <h3>Stay Connected with Code Atlanta</h3>
+                    <ul>
+                        <li><a href="http://www.reddit.com/r/codeatlanta" target="_blank">Reddit</a></li>
+                        <li><a href="#" target="_blank">Facebook</a></li>
+                        <li><a href="#" target="_blank">Twitter</a></li>
+                        <li><a href="https://github.com/codeatlanta" target="_blank">GitHub</a></li>
+                        <li><a href="#" target="_blank">Linked In</a></li>
+                    </ul>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2014 CodeAtlanta.org | <a href="#">Privacy Policy</a></p>
+                </div>
+            </div>
 		</footer>
     </body>
 </html>
