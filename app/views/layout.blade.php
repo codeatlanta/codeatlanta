@@ -8,6 +8,7 @@
 	    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400' rel='stylesheet' type='text/css'>
         {{ HTML::style('/css/bootstrap.min.css'); }}
         {{ HTML::style('/css/codeatlantastyles.css'); }}
+        {{ HTML::script('/js/jquery-1.11.1.min.js'); }}
     </head>
     <body>
         <header>

@@ -10,7 +10,8 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
+Route::get('/events/admin', array('as' => 'events.admin', 'uses' => 'EventsController@admin'));
+Route::resource('events', 'EventsController');
 Route::get('/', 'HomeController@getHomepage');
 Route::get('/about', 'AboutController@getAbout');
 Route::get('/contact', 'ContactController@getContact');
@@ -18,4 +19,3 @@ Route::post('/contact', 'ContactController@postContact');
 Route::get('/contact/thank-you', 'ContactController@getContactThankYou');
 Route::get('/sponsors', 'SponsorsController@getSponsors');
 Route::get('/join', 'JoinController@getJoin');
-Route::get('/events', 'EventsController@getEvents');
